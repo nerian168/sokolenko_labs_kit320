@@ -26,7 +26,7 @@ char *get_animal_type_name(enum animal_type type)
 		result = "Свиня";
 		break;
 	default:
-		result = "N/A";
+		result = "Людина";
 	}
 	return result;
 }
